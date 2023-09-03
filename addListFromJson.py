@@ -57,7 +57,6 @@ try:
                 # Insert relationships into the movie_genres table
                 insert_movie_genre_query = "INSERT INTO movie_genres (movie_id, genre_id) VALUES (%s, %s)"
                 cursor.execute(insert_movie_genre_query, (movie_id, genre_id))
-                # connection.commit()
 
 except Exception as e:
     connection.rollback()  # Roll back the transaction in case of an error
