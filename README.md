@@ -36,7 +36,7 @@
     "isAdmin":false,
     "password":"passwordtest2"
   }
-5){
+5) {
     "name":"testadmin",
     "email":"admin@g.com",
     "isAdmin":true,
