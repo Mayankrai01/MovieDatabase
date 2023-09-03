@@ -11,7 +11,7 @@
 7. [Testing Delete Movies API](#testing-delete-movies-api)
 
 
-Configuration Setup-
+### Configuration Setup
 1) Open Command Prompt and  enter the following command - git clone https://github.com/Mayankrai01/MovieDatabase.git
 2) Open the MovieDatabase.sql and execute all the commands
 3) Now browse to the newly created folder using the command - cd MovieDatabse
@@ -25,7 +25,7 @@ Configuration Setup-
 
 
 
-Steps to Test Add User Api-
+### Testing Add User API-
 1) Edit the URL to - http://127.0.0.1:5000/adduser
 2) Set Request to POST METHOD
 3) Add the data given below in body->raw->json
