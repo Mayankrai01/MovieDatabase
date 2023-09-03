@@ -17,10 +17,11 @@
 3) Now browse to the newly created folder using the command - cd MovieDatabse
 4) Run the following command to create a new conda virtual environment in current folder- conda create -p ./venv python=3.8 -y
 5) Enter Command - conda activate venv/
-6) In the config2.py file, set up your MySQL database configuration:
-7) Enter Command -> python addListFromJson.py , this will add the movies in the imdb.json file to the database
-8) Enter Command -> python userFunctions.py
-9) Note Down the server and open postman and paste it in url box (below image is for reference)
+6) Run the command - {pip install -r requirements.txt} to install the required libraries
+7) In the config2.py file, set up your MySQL database configuration:
+8) Enter Command -> python addListFromJson.py , this will add the movies in the imdb.json file to the database
+9) Enter Command -> python userFunctions.py
+10) Note Down the server and open postman and paste it in url box (below image is for reference)
 ![image](https://github.com/Mayankrai01/MovieDatabase/assets/103130321/4099fe2c-8708-488e-8bd0-062bb532bcd5)
 
 
