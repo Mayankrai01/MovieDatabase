@@ -1,5 +1,16 @@
 # MovieDatabase
 
+
+## Table of Contents
+1. [Configuration Setup](#configuration-setup)
+2. [Testing Add User API](#testing-add-user-api)
+3. [Testing Search Movies API](#testing-search-movies-api)
+4. [Testing Add Movies API](#testing-add-movies-api)
+5. [Testing Get All Movies API](#testing-get-all-movies-api)
+6. [Testing Update Movies API](#testing-update-movies-api)
+7. [Testing Delete Movies API](#testing-delete-movies-api)
+
+
 Configuration Setup-
 1) Open Command Prompt and  enter the following command - git clone https://github.com/Mayankrai01/MovieDatabase.git
 2) Open the MovieDatabase.sql and execute all the commands
@@ -92,6 +103,7 @@ Steps to Test Update Movies API-
     "new_director":"Chuck Lore"
   }
 5) See the updated movies table and the name of the "Big Bang Theory" movie would be update to "The Big Bang Theory"
+
 Steps to Test Delete Movies API-
 1) Edit the URL to -http://127.0.0.1:5000/movies
 2) Method - DELETE
