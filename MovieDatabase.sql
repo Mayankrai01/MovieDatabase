@@ -32,14 +32,7 @@ CREATE TABLE USER(
 
 
 
-INSERT INTO user (name, email, isAdmin, password) values ('AdminUser', 'admin@g.com', 1, 'admin123');
-INSERT INTO user (name, email, isAdmin, password) values ('test', 'mayankfail@g.com', 0, 'test');
-select * from user;
-
-
-
-
-            
+select * from user;            
 SELECT * from movies;
 SELECT * from genres;
 select * from movie_genres;
