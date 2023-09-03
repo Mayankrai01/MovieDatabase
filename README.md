@@ -25,7 +25,7 @@
 
 
 
-### Testing Add User API-
+### Testing Add User API
 1) Edit the URL to - http://127.0.0.1:5000/adduser
 2) Set Request to POST METHOD
 3) Add the data given below in body->raw->json
@@ -45,7 +45,7 @@
 7) It would show the two users with their names
 
 
-Steps to Test Search Movies API-
+### Testing Search Movies API
 1) Edit the URL to -http://127.0.0.1:5000/searchmovies
 2) Method- GET
 3) Add the data given below in body->raw->json
@@ -64,7 +64,7 @@ Steps to Test Search Movies API-
   }
 
 
-Steps to Test Add Movies API-
+### Testing Add Movies API
 1) Edit the URL to -http://127.0.0.1:5000/movies
 2) Method - POST
 3) Add the data given below in body->raw->json
@@ -80,13 +80,13 @@ Steps to Test Add Movies API-
 5) Movie should be successfully added to database check using the command -{SELECT * from movies;} and browse to the last inserted value
 
 
-Steps to Test Get All Movies API-
+### Testing Get All Movies API
 1) Edit the URL to -http://127.0.0.1:5000/movies
 2) Method - GET
 3) Send the request and you should get all the movies list
 
 
-Steps to Test Update Movies API-
+### Testing Update Movies API
 1) Edit the URL to -http://127.0.0.1:5000/movies
 2) Method - PUT
 3) Add the data given below in body->raw->json
@@ -104,7 +104,7 @@ Steps to Test Update Movies API-
   }
 5) See the updated movies table and the name of the "Big Bang Theory" movie would be update to "The Big Bang Theory"
 
-Steps to Test Delete Movies API-
+### Testing Delete Movies API
 1) Edit the URL to -http://127.0.0.1:5000/movies
 2) Method - DELETE
 3) Add the data given below in body->raw->json
