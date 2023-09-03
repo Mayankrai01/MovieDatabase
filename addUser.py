@@ -20,7 +20,6 @@ class AddUser:
             password = data.get('password', '')  
             hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
 
-            # Store the hashed password in the database
             insert_user_query = "INSERT INTO USER (name, email,isAdmin, password) VALUES (%s, %s, %s, %s)"
             user_values = (data.get('name', ''), data.get('email', ''), data['isAdmin'], hashed_password.decode('utf-8'))
             cursor.execute(insert_user_query, user_values)
